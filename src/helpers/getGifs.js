@@ -1,4 +1,4 @@
-const getGifs = async () => {
+const getGifs = async (category) => {
 
     const url = `https://api.giphy.com/v1/gifs/search?api_key=PSVSVWKUcO3FmKN2W6EiKgp8YQLIvGf4&q=${category}&limit=10`
 
